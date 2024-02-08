@@ -44,7 +44,7 @@ Our models achieved promising results in classifying patients with depression ba
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Run the Jupyter notebooks to conduct data preprocessing, perform feature extraction and selection, conduct data augmentation, and build and evaluate machine learning models.
 
-Note: due to filesize restrictions on github a csv called "data_augmented.csv" needs to be downloaded from google drive: https://drive.google.com/file/d/1YFsUk2InK1DFwCevVFNTWX3YY8JEWu2a/view?usp=sharing and should be saved under data/processed. This file is needed to run the models and evaluation notebook.
+Note: due to filesize restrictions on github a csv called "data_augmented.csv" needs to be downloaded created using the notebook 1_preprocessing_feature engineering_augmentation and should be saved under data/processed. This file is needed to run the models and evaluation notebook.
 
 ## Future Work
 
@@ -70,14 +70,12 @@ Project Organization
     │   └── raw                                                        <- The original, immutable data
     │
     ├── notebooks                                                      <- Jupyter notebooks
-    │   ├── w207_1_preprocessing_feature engineering_augmentation      <- Data preprocessing, feature extraction and selection, and data augmentation notebook
-    │   └── w207_2_models_and_evaluation                               <- Models (Logistic regression, XGBoost, AdaBoost, LTSM neural network, standard neural network) and model evaluation
+    │   ├── 1_preprocessing_feature engineering_augmentation      <- Data preprocessing, feature extraction and selection, and data augmentation notebook
+    │   └── 2_models_and_evaluation                               <- Models (Logistic regression, XGBoost, AdaBoost, LTSM neural network, standard neural network) and model evaluation
     │
     ├── presentations                                                  <- Presentations
-    │   ├── W207_Baseline Presentation                                 <- Baseline presentation
-    │   └── w207_Final PResentation                                    <- Final presentation
-    │
-    ├── references                                                     <- Selected research reports on the topic
+    │   ├── Baseline Presentation                                       <- Baseline presentation
+    │   └── Final Presentation                                          <- Final presentation
     │
     ├── requirements.txt                                               <- The requirements file for reproducing the analysis environment, e.g.
     │                                                                     generated with `pip freeze > requirements.txt`
