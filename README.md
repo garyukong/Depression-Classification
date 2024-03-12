@@ -55,11 +55,11 @@ While our current models show promising results, there is still scope for improv
 - Evaluating the model's generalizability on an external dataset.
 
 ## Contributors
-- [Gary Kong] - Data preprocessing, feature extraction and selection, logistic regression
-- [Julia Kauffman] - Data augmentation, cross-validation, LTSM, standard neural network
-- [Leo Le] - Cross-validation, Adaboost (Lead), XGBoost (Lead)
-- [Vishnu Paty] - Cross-validation, Adaboost (Support), XGBoost (Support), Model evaluation
-- [Melia Soque] - Cross-validation, Logistic regression
+- [Gary Kong]
+- [Julia Kauffman]
+- [Leo Le]
+- [Vishnu Paty]
+- [Melia Soque]
 
 Project Organization
 ------------
